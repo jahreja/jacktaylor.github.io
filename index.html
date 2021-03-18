@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen and (min-width: 900px)" href="/css/web.css">
+    <link rel="stylesheet" media="screen and (max-width: 900px)" href="/css/mobile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+
+    <title>Jack Taylor</title>
+
+</head>
+
+<body>
+
+    <!-- [0] Nav Bar - Jumps to top -->
+    
+    <nav>
+        <a  href="#"><img id="nav-name" src="assets/img/main/jacktaylorblue.png"></a>
+    </nav>
+
+    <!-- [1] Front Page - Bouncing Jack Taylor -->
+
+    <section id="front-page">
+
+        <div class="x">
+            <img class="y" src="assets/img/main/jackblue.png" alt="" />
+        </div>
+
+        <div class="a">
+            <img class="b" src="assets/img/main/taylorblue.png" alt="" />
+        </div> 
+
+        <div class="arrow">
+            <a href="#about"><i id="icon-down" class="fas fa-angle-double-down"></i></a>  
+        </div>
+        
+    </section>
+
+    <!-- [2] About - Skills & Links -->
+
+    <section id="about">
+
+        <h1 class="typewriter" id="top-quote">A passionate software developer, with a drive to unite <Br>
+            <span class="contemporary">contemporary creativity</span> with <span class="computing">computing and technology</span>.
+        </h1>
+
+        <div class="socials">
+            <a href="https://www.github.com/jahreja" target="_blank"><i id="social" class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/jack-t-taylor" target="_blank"><i id="social" class="fab fa-linkedin"></i></a>
+            <a href="mailto:jack-t-taylor@outlook.com" target="_blank"><i id="social" class="fas fa-at"></i></a>
+            <a href="/assets/file/cvProper.pdf" target="_blank" id="cv">Download CV</a>
+        </div>
+
+    </section>
+
+    <section id="projects-spot">
+        <h1 id="projects">Projects</h1>
+
+        <div class="projectlist">
+            <section class="projlistitem">
+                <div id="projpic"><img id="projectpic" src="assets/img/projects/critchat2.png"></div>
+                <div id="projcont">
+                    <h2 id="projtitle">CritChat</h2>
+                    <br>
+                    <p id="projdesc">CritChat is a platform for art students to host and join online critique spaces, with real-time chatroom
+                        functionality. Guests can react to the presented images, as well as chat freely, while hosts can upload 
+                        their own work upon creating the critique spaces. <span>Node.js</span> and <span>Socket.IO</span> make up the back-end of 
+                        the application, while <span>React.js</span> powers the client-facing components. </p>
+                    <br>
+                    <div id="projlinks">
+                        <a target="_blank" href="https://github.com/jahreja/critchat-cc" id="projlinks"><i class="fab fa-github"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a target="_blank" href="https://critchat.cc" id="projlinks"><i class="fas fa-desktop"></i></a>
+                    </div>
+                    
+                </div>
+            </section>
+            <section class="projlistitem">
+                <div id="projcont">
+                    <h2 id="projtitle">Ciel AI</h2>
+                    <br>
+                    <p id="projdesc">Developed in <span>Python</span>, Ciel AI is a <span>Deep Convolutional Generative Adversarial Network</span> (DCGAN) used to
+                        artificially generate images of the sky, through a dataset of photographs sourced from a research 
+                        centre in Germany. Over time, the competing neural networks get more successful in producing
+                        more realistic images of the sky itself.</p>
+                    <br>
+                    <div id="projlinks">
+                        <a target="_blank" href="https://github.com/jahreja/ciel-ai" id="projlinks"><i id="seelive" class="fab fa-github"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a target="_blank" href="https://imgur.com/a/BxkhQee" id="projlinks"><i id="seelive" class="fas fa-images"></i></a>
+                    </div>
+                </div>
+                <div id="projpic"><img id="projectpic" src="/assets/img/projects/dcgan.png"></div>
+            </section>
+            <section class="projlistitem">
+                <div id="projpic"><img id="projectpic" src="/assets/img/projects/runlib3.png"></div>
+                <div id="projcont">
+                    <h2 id="projtitle">runLib</h2>
+                    <br>
+                    <p id="projdesc">runLib is a running route library, containing an editable database of running routes categorised by distance, 
+                        run type, location and description. <span>Node.js</span> and <span>MongoDB</span> all play their part in the back-end, 
+                        while <span>JavaScript</span>, <span>HTML</span> and <span>CSS</span> hold up the front-end.</p>
+                    <br>
+                    <div id="projlinks">
+                        <a target="_blank" href="https://github.com/jahreja/runlib" id="projlinks"><i id="seelive" class="fab fa-github"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a target="_blank" href="https://runlib.herokuapp.com" id="projlinks"><i id="seelive" class="fas fa-desktop"></i></a>                   
+                    </div>
+                </div>
+            </section>
+            <section class="projlistitem">
+                <div id="projcont">
+                    <h2 id="projtitle">Nine Two</h2>
+                    <br>
+                    <p id="projdesc">
+                        Nine Two is a web application for accessing information on football clubs within the top four leagues
+                        of the English footballing pyramid. Nine Two uses data from <span>thesportsdb.com API</span>, and allows the user to
+                        select a league, and a respective club to discover information about. <span>CSS animations</span> make Nine Two feel
+                        responsive, and the information itself is displayed in a clear, digestible manner. 
+                    </p>
+                    <br>
+                    <div id="projlinks">
+                        <a target="_blank" href="https://github.com/jahreja/ninetwo" id="projlinks"><i id="seelive" class="fab fa-github"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a target="_blank" href="https://ninetwo.netlify.app/" id="projlinks"><i id="seelive" class="fas fa-desktop"></i></a>             
+                    </div>
+                </div>
+                <div id="projpic"><img id="projectpic" src="assets/img/projects/ninetwo.png"></div>
+            </section>
+        </div>
+    </section>
+
+    <section id="projects-line">
+
+        <div class="projline">
+            <div class="projlineitem">
+                <h3 id="projlinetitle">Isolation Station</h3>
+                <div id="projpic"><img id="projectpic" src="assets/img/projects/isolation.png"></div>
+                <div id="projlinksline">
+                    <a target="_blank" id="projlinks" href="https://github.com/jahreja/isolationstation"><i id="seelive" class="fab fa-github"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a target="_blank" id="projlinks" href="https://isolationstation.co/"><i id="seelive" class="fas fa-desktop"></i></a>
+                </div>
+                <div id="projtext">
+                    <p id="projdesc">
+                        Isolation Station is an internet radio station founded by artist and designer Spike Wright. In this website,
+                        CSS animations create a responsive online base for the station, with a linked 3D space
+                        designed in 3DVista allowing for the ultimate user experience.
+                    </p>    
+                </div>
+            </div>
+            <div class="projlineitem">
+                <h3 id="projlinetitle">The Kitchen Inventory</h3>
+                <div id="projpic"><img id="projectpic" src="assets/img/projects/kitchinv.jpg"></div>
+                <div id="projlinksline">
+                    <a target="_blank" id="projlinks" href="https://github.com/jahreja/the-kitchen-inventory"><i id="seelive" class="fab fa-github"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a target="_blank" id="projlinks" href="https://the-kitchen-inventory.herokuapp.com/"><i id="seelive" class="fas fa-desktop"></i></a>
+                </div>
+                <div id="projtext">
+                    <p id="projdesc">The Kitchen Inventory is a useful web application to keep track of what is in the cupboards
+                         of the kitchen. Items can be easily added or removed from the kitchen, and a shopping list is provided
+                          where items can be deleted or transferred into the kitchen when purchased.
+                    </p>    
+                </div>
+                
+            </div>
+            
+            <div class="projlineitem">
+                <h3 id="projlinetitle">RentEst</h3>
+                <div id="projpic"><img id="projectpic" src="assets/img/projects/rentest.png"></div>
+                <div id="projlinksline">
+                    <a id="projlinks" href="https://github.com/jahreja/rentest"><i id="seelive" class="fab fa-github"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a target="_blank" id="projlinks" href="https://rentest.netlify.app"><i id="seelive" class="fas fa-desktop"></i></a>
+                </div>
+                <div id="projtext">
+                    <p id="projdesc">RentEst is a tool for working out an estimate on how much rent you should be paying per month in the U.K. 
+                        The program uses data from Statista on the household rent to income ratio in various areas across the United Kingdom, 
+                        and has been developed using React and React Hooks.
+                    </p>    
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+</body>
+
+</html>
