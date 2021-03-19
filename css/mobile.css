@@ -128,7 +128,7 @@ img, .x, .a {
     padding-bottom: 5rem;
     color: #181818;
     font-family: "Avenir";
-    font-size: 2vw;
+    font-size: 6vw;
 
 }
 
@@ -158,6 +158,7 @@ img, .x, .a {
     flex-direction: column;
     align-items: center;
     padding-bottom: 10rem;
+    gap: 2rem;
 }
   
 #social {
@@ -203,7 +204,7 @@ img, .x, .a {
 
 #projects {
   font-size: 3rem;
-  padding-top: 5rem;
+  padding-top: 15rem;
   color: #181818;
   font-family: "Tiempos Text Regular";
 }
@@ -214,8 +215,8 @@ img, .x, .a {
 }
 
 #projectpic {
-  height: 20vw;
-  width: 20vw;
+  height: 80vw;
+  width: 80vw;
   border: 0.3rem solid #e9edde;
   border-radius: 100%;
   cursor: pointer;
@@ -235,7 +236,8 @@ img, .x, .a {
 
 .projlistitem {
   width: 75vw;
-  display: inline-grid;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   grid-template-columns: 50% 50%;
@@ -247,7 +249,7 @@ img, .x, .a {
 }
 
 #projcont {
-  max-width: 50vw;
+  max-width: 80vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -263,7 +265,7 @@ img, .x, .a {
 #projdesc {
   color: #181818;
   font-family: "Avenir";
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 #projlinks {
@@ -286,7 +288,9 @@ img, .x, .a {
 
 .projline {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   gap: 4rem;
 }
 
@@ -300,7 +304,7 @@ img, .x, .a {
 #projlineitem {
   display: flex;
   flex-direction: column;
-  max-width: 25vw;
+  max-width: 80vw;
   justify-content: center;
   align-items: center;
 }
@@ -312,7 +316,7 @@ img, .x, .a {
 }
 
 #projtext {
-  width: 25vw;
+  width: 80vw;
   text-align: center;
 }
 
